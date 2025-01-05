@@ -1,12 +1,11 @@
 import React from "react";
 
-const Booking = () => {
+const Navbar = () => {
   return (
     <div>
-      <h2>Book an Appointment</h2>
-      <p>Schedule an appointment with us today!</p>
+      <h2></h2>
     </div>
   );
 };
 
-export default Booking;
+export default Navbar;

@@ -1,12 +1,13 @@
 import React from "react";
 
-const About = () => {
+const Footer = () => {
   return (
     <div>
-      <h2>About Us</h2>
-      <p>Welcome to our business! We specialize in providing quality services.</p>
+      
+      <h2></h2>
+
     </div>
   );
 };
 
-export default About;
+export default Footer;
