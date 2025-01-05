@@ -2,11 +2,9 @@ import React from "react";
 
 const Button = () => {
   return (
-    <div>
-      
-      <h2></h2>
 
-    </div>
+      <h1>I am the button component</h1>
+
   );
 };
 
