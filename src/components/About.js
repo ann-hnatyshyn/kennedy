@@ -1,10 +1,21 @@
 import React from "react";
+import avatar from "../assests/images/stella.jpeg"
 
 const About = () => {
-  return (
+  const firstName = "Stella"
+  const lastName = "Kennedy"
 
-      <h1>I am the About component</h1>
-  );
+  return (
+    <aside>
+      <div className="profile">
+        <img className="profile__image" src={avatar} />
+      </div>
+      <br />
+      <div className="profile__name">
+        <h2><span className="profile--bold">{firstName}</span> {lastName}</h2>
+      </div>
+    </aside>
+  )
 };
 
 export default About;
